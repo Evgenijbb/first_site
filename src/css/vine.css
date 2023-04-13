@@ -1,0 +1,26 @@
+.vine {
+    background: url("../image/bgc.png");
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vine__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.btn {
+    width: 210px;
+    height: 50px;
+    background-color: rgb(172, 136, 17);
+    color: white;
+}
