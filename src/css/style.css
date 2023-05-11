@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import "./header.css";
 @import "./normalise.css";
 @import "./first-screen.css";
 @import "./vine.css";
 @import "./deskription.css";
+@import "./harvest.css";
+@import "./degustation.css";
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,126 @@
+.harvest {
+    display: flex;
+    background-color: #E6E3C4;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.harvest__content {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    justify-content: space-between;
+    color: #000;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+.harvest-title {
+    font-size: 16px;
+    color: black;
+}
+.harvest__left {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+}
+.harvest-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #000000;
+}
+.harvest-title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+
+
+    /* black */
+
+    color: #282828;
+
+}
+.harvest-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* black */
+
+    color: #282828;
+}
+.harvest__table-row {
+    border-bottom: 1px solid #282828;
+    color: #000;
+}
+.harvest__table-row:last-child{
+    border: none;
+}
+.harvest__table-year {
+    display: flex;
+    border-right: 1px solid #282828;
+    color: #000000;
+    width: 75px;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+.harvest__table-info {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 74px;
+    width: 100%;
+    gap: 5px;
+}
+.harvest__right {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.harvest-image {
+    width: 100%;
+}
+.harvest__image-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 210px;
+    height: 50px;
+    background-color: rgb(172, 136, 17);
+    color: white;
+}
+.harvest__left{
+    color: #000;
+}
+.harvest__table-info h2,.harvest__table-info p{
+    color: #000;
+}
