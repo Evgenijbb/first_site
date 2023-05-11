@@ -10,3 +10,14 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+button:hover{
+    transform: scale(110%);
+}
+button{
+    border: none;
+    transition: 0.3s;
+}
+button:active{
+    transform: scale(1);
+    transition: 0.1s;
+}
