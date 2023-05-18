@@ -6,6 +6,7 @@
 @import "./deskription.css";
 @import "./harvest.css";
 @import "./degustation.css";
+@import "./other.css";
 .container{
     padding-left: 10px;
     padding-right: 10px;
